@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   postgres:
-    image: postgres:user
+    image: postgres:14
     container_name: backend_user
     ports:
       - '5432:5432'

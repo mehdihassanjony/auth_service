@@ -17,7 +17,7 @@ services:
     environment:
       - NODE_ENV=dev
       - PORT=3030
-      - DATABASE_URL=shop
+      - DATABASE_URL=shop  
   postgres:
     image: postgres:user
     container_name: backend-user
